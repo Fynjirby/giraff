@@ -1,0 +1,117 @@
+/* giraff styles */
+/* made by Fynjirby in 2025 */
+
+*,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	-webkit-tap-highlight-color: transparent;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	background-color: #eeeeee;
+	color: #111111;
+	overflow-x: hidden;
+}
+
+::selection {
+	background: #bbbbbb;
+}
+
+header,
+footer {
+	background-color: #cbcbcb;
+	position: relative;
+}
+
+header {
+	top: 0;
+}
+
+footer {
+	bottom: 0;
+}
+
+header.sticky,
+footer.sticky {
+	position: sticky;
+}
+
+a {
+	color: #323232;
+	text-decoration: underline;
+	cursor: alias;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 5px;
+	margin: 5px;
+}
+
+header h1,
+header h2,
+header h3,
+header h4,
+header h5,
+header h6,
+header p,
+header a,
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6,
+footer p,
+footer a {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+img {
+	border-radius: 5px;
+	margin: 8px;
+}
