@@ -11,17 +11,7 @@ put this in `<head>` of your website's page
 ### 1st way - import it from website (slow, loads everytime)
 
 ```html
-<link
-	rel="stylesheet"
-	href="https://github.fynjirby.dev/giraff/blob/main/src/main.css" />
-```
-
-or
-
-```html
-<link
-	rel="stylesheet"
-	href="https://github.com/Fynjirby/giraff/blob/main/src/main.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fynjirby/giraff@main/src/main.css">
 ```
 
 ### 2nd way - download it and put to your website folder
